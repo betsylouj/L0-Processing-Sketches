@@ -17,6 +17,7 @@ sound = minim.loadSample("pewpew.wav");
 
   size(800  , 600);
   catPic = loadImage("cat-02.jpg");
+  catPic.resize(800,600);
   background(catPic);  //can use image(catPic,0,0);
 }
 
